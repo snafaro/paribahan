@@ -4,8 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- daisy ui and tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- vanila css -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+  <!-- header section start -->
+    <header class="px-[134px]">
+      <!-- nav-bar section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <a class="btn btn-ghost text-xl">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <button class="flex gap-3 btn bg-[#1cd1002a] text-[#1DD100] border border-[#1DD100]">Bus <img src="images/bus-icon.png" alt=""></button>
+                </div>
+              </div>
+        </nav>
+        <!-- banner section -->
+        <section class="banner px-[134px] w-full h-[550px] bg-cover bg-no-repeat bg-center rounded-3xl flex justify-center items-center">
+          <div class="flex justify-center flex-col items-center">
+            <h1 class="text-white text-center">End-to-End Travel with <br><span class="text-[#1DD100]">P Paribahan</span> </h1>
+            <p class="text-white max-w-[690px] text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <button class="btn bg-[#1DD100] border-0 ">Buy Tickets</button>
+          </div>
+
+        </section>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+    <main>
+      <!-- offer section -->
+      <section class="offer flex flex-col justify-center items-center gap-12 mt-16">
+        <h1 class="text-[#030712] font-bold text-4xl raleway-font">Best offers for you</h1>
+        <div class="coupon flex gap-7">
+          <div class="coupon-one w-[570px] h-[220px] bg-[#FFBF0FFF] rounded-3xl flex justify-evenly items-center">
+            <div class="offer flex flex-col gap-2">
+              <h1 class="text-4xl inter-font font-extrabold text-[#030712CC]">15% OFF</h1>
+              <p class="text-xl inter-font font-semibold text-[#030712CC]">on your next purchase</p>
+              <p class="text-lg inter-font font-medium text-[#03071280]">use by January 2024</p>
+            </div>
+            <img src="images/cupon-devider.png" alt="">
+            <div class="coupon-code">
+              <h3 class="text-[#030712] raleway-font text-3xl font-bold">NEW15</h3>
+              <p class="text-[#03071266] font-medium text-xl">Coupon Code</p>
+            </div>
+
+          </div>
+
+          <div class="coupon-two w-[570px] h-[220px] bg-[#F78C9C] rounded-3xl flex justify-evenly items-center">
+            <div class="offer flex flex-col gap-2">
+              <h1 class="text-4xl inter-font font-extrabold text-[#030712CC]">20% OFF</h1>
+              <p class="text-xl inter-font font-semibold text-[#030712CC]">on your next purchase</p>
+              <p class="text-lg inter-font font-medium text-[#03071280]">use by January 2024</p>
+            </div>
+            <img src="images/cupon-devider.png" alt="">
+            <div class="coupon-code">
+              <h3 class="text-[#030712] raleway-font text-3xl font-bold">Couple 20</h3>
+              <p class="text-[#03071266] font-medium text-xl">Coupon Code</p>
+            </div>
+
+          </div>
+
+        </div>
+        <button class=" raleway-font text-xl font-bold text-[#1DD100] border border-[#1DD100] btn bg-white">See All Offers</button>
+      </section>
+
+      <!-- paribahan section -->
+      <section class="paribahan  bg-[#F7F8F8] rounded-t-[80px] w-full mt-28 border-t-2 border-[#1DD100]">
+        <div class="text flex flex-col items-center mt-28">
+          <h3 class="text-[#030712] font-bold text-4xl raleway-font mb-6 text-center">P.H Paribahan</h3>
+          <p class="max-w-[690px] text-center text-[#03071299] text-lg font-normal inter-font">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+        </div>
+
+      </section>
+
+    </main>
+    <!-- main section end -->
     
 </body>
 </html>
