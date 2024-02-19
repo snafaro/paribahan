@@ -22,27 +22,27 @@
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <a class="btn btn-ghost text-xl">P-Ticket</a>
+                  <a class="btn btn-ghost raleway-font text-4xl font-extrabold text-[#030712]">P-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Destination</a></li>
-                    <li><a>Search</a></li>
+                    <li><a class="raleway-font font-medium text-lg text-[#030712B3]">Home</a></li>
+                    <li><a class="raleway-font font-medium text-lg text-[#030712B3]">About</a></li>
+                    <li><a class="raleway-font font-medium text-lg text-[#030712B3]">Destination</a></li>
+                    <li><a class="raleway-font font-medium text-lg text-[#030712B3]">Search</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <button class="flex gap-3 btn bg-[#1cd1002a] text-[#1DD100] border border-[#1DD100]">Bus <img src="images/bus-icon.png" alt=""></button>
+                  <a href="#come" class=" raleway-font font-bold text-xl flex gap-3 btn bg-[#1cd1002a] text-[#1DD100] border border-[#1DD100] ">Bus <img src="images/bus-icon.png" alt=""></a>
                 </div>
               </div>
         </nav>
         <!-- banner section -->
         <section class="banner px-[134px] w-full h-[550px] bg-cover bg-no-repeat bg-center rounded-3xl flex justify-center items-center">
-          <div class="flex justify-center flex-col items-center">
-            <h1 class="text-white text-center">End-to-End Travel with <br><span class="text-[#1DD100]">P Paribahan</span> </h1>
-            <p class="text-white max-w-[690px] text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-            <button class="btn bg-[#1DD100] border-0 ">Buy Tickets</button>
+          <div class="flex justify-center flex-col items-center gap-4">
+            <h1 class="raleway-font text-white text-center font-extrabold text-6xl">End-to-End Travel with <br><span class="text-[#1DD100]">P Paribahan</span> </h1>
+            <p class="inter-font font-normal text-lg text-white max-w-[690px] text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <a href="#come" class="raleway-font font-bold text-xl  btn bg-[#1DD100] border-0 ">Buy Tickets</a>
           </div>
 
         </section>
@@ -138,7 +138,7 @@
 
         <!-- seat count and ticket buying section  -->
 
-        <div class="flex min-w-[1170px]  bg-white justify-evenly mt-8 p-8 rounded-2xl">
+        <div id="come" class="flex min-w-[1170px]  bg-white justify-evenly mt-8 p-8 rounded-2xl">
           <!-- seat  -->
           <div class="">
             <p class=" raleway-font font-semibold text-2xl text-[#030712] pb-6 border-b-2 border-dashed">Select Your Seat</p>
@@ -182,7 +182,7 @@
           <!-- ticket count and price -->
           <div>
             <p class=" raleway-font font-semibold text-2xl text-[#030712] border-b-2 border-dashed pb-6">Select Your Seat</p>
-            <div class="p-8 w-full bg-[#F7F8F8] rounded-2xl flex flex-col gap-5 my-6">
+            <div class="p-8 min-w-[450px] bg-[#F7F8F8] rounded-2xl flex flex-col gap-5 my-6">
               <div class=" inter-font text-[16px] font-medium flex justify-between border-b-2 border-dashed pb-4 ">
                 <h4>Seat <span id="seat-plus" class="bg-[#1DD100] rounded p-1 text-white">0</span></h4>
                 <h4>Class</h4>
@@ -242,9 +242,9 @@
                 <h4>BDT <span id="total-price">0</span></h4>
               </div>
               <!-- input field -->
-              <label class="input input-bordered flex items-center gap-2">
-                <input type="text" class="grow " placeholder="Have any copupon?"  />
-                <button id="apply" class="inter-font text-lg font-semibold text-white bg-[#1DD100] btn">Apply</button>
+              <label id="lab" class="input input-bordered flex items-center gap-2">
+                <input id="input" type="text" class="grow " placeholder="Have any copupon?"  />
+                <button id="apply"  class="inter-font text-lg font-semibold text-white bg-[#1DD100] btn">Apply</button>
               </label>
                <!-- grand total -->
               <div class="flex justify-between inter-font text-[16px] font-medium">
@@ -283,6 +283,6 @@
 
     <!-- javascript -->
     <script src="scripts/index.js"></script>
-    <script src="scripts/utilities.js"></script>
+    
 </body>
 </html>

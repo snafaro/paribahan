@@ -55,6 +55,7 @@ seat.addEventListener("click", bcolor)
     const grandPriceTextInt = parseInt(grandPriceText);
     const grandPriceCount = grandPriceTextInt + 550;
     grandPrice.innerText=grandPriceCount;
+    
 
 
 
@@ -71,12 +72,30 @@ seat.addEventListener("click", bcolor)
             
     }
     
+    // const one = document.getElementById("apply")
+    
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
 
      seat.removeEventListener("click", bcolor)
-
-     return grandPrice;
+    
+    
+    
 
  }
+
+
+
 
 //  two
 const seat2 = document.getElementById("A2");
@@ -126,11 +145,26 @@ seat2.addEventListener("click", bcolora)
             seat8.removeEventListener("click", bcolorg)
             
     }
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
      seat2.removeEventListener("click", bcolora)
 
-     return grandPrice;
+
 
  }
+
+
 
 //  three
 
@@ -181,9 +215,22 @@ seat3.addEventListener("click", bcolorb)
             seat8.removeEventListener("click", bcolorg)
             
     }
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
      seat3.removeEventListener("click", bcolorb)
 
-     return grandPrice;
+     
 
  }
 
@@ -236,9 +283,22 @@ seat4.addEventListener("click", bcolorc)
             seat8.removeEventListener("click", bcolorg)
             
     }
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
      seat4.removeEventListener("click", bcolorc)
 
-     return grandPrice;
+     
 
  }
 
@@ -291,9 +351,23 @@ seat5.addEventListener("click", bcolord)
             seat8.removeEventListener("click", bcolorg)
             
     }
+
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
      seat5.removeEventListener("click", bcolord)
 
-     return grandPrice;
+     
 
  }
 
@@ -346,9 +420,23 @@ seat6.addEventListener("click", bcolore)
             seat8.removeEventListener("click", bcolorg)
            
     }
+
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
      seat6.removeEventListener("click", bcolore)
 
-     return grandPrice;
+     
 
  }
 
@@ -401,9 +489,23 @@ seat7.addEventListener("click", bcolorf)
         seat8.removeEventListener("click", bcolorg)
         
     }
+
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
      seat7.removeEventListener("click", bcolorf)
 
-     return grandPrice;
+     
 
  }
 
@@ -458,8 +560,22 @@ seat7.addEventListener("click", bcolorf)
         
         
     }
+
+
+    function kilo(){
+        if(document.getElementById("input").value === "NEW15"){
+            grandPrice.innerText = grandPriceCount * 0.85 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+        else if(document.getElementById("input").value === "Couple 20"){
+            grandPrice.innerText = grandPriceCount * 0.80 ;
+            document.getElementById("lab").classList.add("hidden");
+        }
+    }
+    document.getElementById("apply").onclick = kilo;
+
       seat8.removeEventListener("click", bcolorg)
-      return grandPrice;
+      
 
 
         
