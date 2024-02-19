@@ -88,16 +88,188 @@
       </section>
 
       <!-- paribahan section -->
-      <section class="paribahan  bg-[#F7F8F8] rounded-t-[80px] w-full mt-28 border-t-2 border-[#1DD100]">
+      <section class="paribahan  bg-[#F7F8F8] rounded-t-[80px] w-full mt-28 border-t-2 border-[#1DD100] p-[134px] flex flex-col items-center">
+
+        <!-- paribahan section text -->
         <div class="text flex flex-col items-center mt-28">
           <h3 class="text-[#030712] font-bold text-4xl raleway-font mb-6 text-center">P.H Paribahan</h3>
           <p class="max-w-[690px] text-center text-[#03071299] text-lg font-normal inter-font">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
         </div>
+        <!-- paribahan ticket card -->
+
+        <div class="card-section bg-white min-w-[1170px] flex justify-evenly items-center rounded-3xl">
+          <div class="flex flex-col gap-5">
+            <div class="flex justify-between">
+              <div class="flex gap-4 items-center">
+                <img src="images/bus-logo.png" alt="" class="w-16 h-12">
+                <div>
+                  <h1 class="raleway-font text-3xl font-bold text-[#030712]">Greenline Paribahan</h1>
+                  <p class="inter-font font-normal text-lg text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                </div>
+              </div>
+              <button class="text-[#1DD100] inter-font text-lg font-medium btn bg-[#1DD10026]"><img src="images/seat-green.png" alt=""><span id="seat-left" class="text-[#1DD100] inter-font text-lg font-medium">8</span>Seats Left</button>
+
+            </div>
+            <div class="bg-[#F7F8F8] flex flex-col gap-8 p-8 rounded-3xl ">
+              <div class="flex justify-between border-b-2 pb-6 border-dashed border-[#03071233]">
+                <p class="raleway-font text-lg font-semibold text-[#03071299]">Route</p>
+                <p class="raleway-font text-lg font-semibold text-[#030712]">Dhaka - Sylhet</p>
+              </div>
+              <div class="flex justify-between border-b-2 pb-6 border-dashed border-[#03071233]">
+                <p class="raleway-font text-lg font-semibold text-[#03071299]">Departure Time</p>
+                <p class="raleway-font text-lg font-semibold text-[#030712]">9:00 PM</p>
+              </div>
+              <div>
+                <button class="btn bg-[#0307120D]">Boarding Point - Laxmipur</button>
+                <button class="btn bg-[#0307120D]">Dropping Point - Bogura</button>
+                <button class="btn bg-[#0307120D]">Est. Time - 11 Hour</button>
+
+              </div>
+            </div>
+          </div>
+          <img src="images/info-devider.png" alt="">
+          <div class="flex flex-col items-center justify-center gap-6">
+            <img src="images/fare.png" alt="">
+            <h3 class="raleway-font font-bold text-3xl">550 Taka</h3>
+            <p class="raleway-font text-[#03071299] text-2xl font-semibold">Per Seat</p>
+          </div>
+
+        </div>
+
+        <!-- seat count and ticket buying section  -->
+
+        <div class="flex min-w-[1170px]  bg-white justify-evenly mt-8 p-8 rounded-2xl">
+          <!-- seat  -->
+          <div class="">
+            <p class=" raleway-font font-semibold text-2xl text-[#030712] pb-6 border-b-2 border-dashed">Select Your Seat</p>
+            <div>
+              <div class="flex border-b-2 border-dashed justify-between py-5">
+
+              <div class="flex">
+                <img src="images/seat-gray.png" alt="">
+                <span class="inter-font text-[#03071280] text-lg font-medium">Available</span>
+              </div>
+
+              <div class="flex">
+                <img src="images/seat-green-filled.png" alt="">
+                <span class="inter-font text-[#1DD100] text-lg font-medium">Selected</span>
+              </div>
+              </div>
+
+              <div class="flex flex-col gap-5 pt-6">
+                <div class="flex items-center gap-5">
+                  <div class="inter-font font-medium text-xl text-[#03071280]">A</div>
+                  <div id="A1"  class=" w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >A1</div>
+                  <div id="A2" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >A2</div>
+                  <div id="A3" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >A3</div>
+                  <div id="A4" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >A4</div>
+                </div>
+                <div class="flex items-center gap-5">
+                  <div class="inter-font font-medium text-xl text-[#03071280]">B</div>
+                  <div id="B1" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >B1</div>
+                  <div id="B2" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >B2</div>
+                  <div id="B3" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >B3</div>
+                  <div id="B4" onclick="bgcolor(event)" class="w-[100px] h-[50px] cursor-pointer bg-[#F7F8F8] rounded-xl text-[#03071280] flex items-center justify-center inter-font font-medium text-xl" >B4</div>
+                </div>
+              </div>
+            </div>
+            <div></div>
+            <div>
+
+            </div>
+          </div>
+
+          <!-- ticket count and price -->
+          <div>
+            <p class=" raleway-font font-semibold text-2xl text-[#030712] border-b-2 border-dashed pb-6">Select Your Seat</p>
+            <div class="p-8 w-full bg-[#F7F8F8] rounded-2xl flex flex-col gap-5 my-6">
+              <div class=" inter-font text-[16px] font-medium flex justify-between border-b-2 border-dashed pb-4 ">
+                <h4>Seat <span id="seat-plus" class="bg-[#1DD100] rounded p-1 text-white">0</span></h4>
+                <h4>Class</h4>
+                <h4>Price</h4>
+              </div>
+              <!-- seat name , class and price  -->
+              <div id="ta1" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="ta2" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="ta3" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="ta4" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="tb1" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="tb2" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="tb3" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+
+              <div id="tb4" class=" inter-font hidden text-[16px] font-normal flex justify-between text-[#03071299] ">
+                <h4>A1</h4>
+                <h4>Economy</h4>
+                <h4>550</h4>
+              </div> 
+              <!-- price -->
+              <div class="flex justify-between border-t-2 inter-font text-[16px] font-medium">
+                <h4>Total Price</h4>
+                <h4>BDT <span id="total-price">0</span></h4>
+              </div>
+              <!-- input field -->
+              <label class="input input-bordered flex items-center gap-2">
+                <input type="text" class="grow " placeholder="Have any copupon?"  />
+                <button class="inter-font text-lg font-semibold text-white bg-[#1DD100] btn">Apply</button>
+              </label>
+               <!-- grand total -->
+              <div class="flex justify-between inter-font text-[16px] font-medium">
+                <h4>Grand Total</h4>
+                <h4>BDT <span id="grand-total">0</span></h4>
+              </div>
+
+
+
+ 
+            </div>
+          </div>
+
+        </div>
+
+
 
       </section>
 
     </main>
     <!-- main section end -->
     
+
+    <!-- javascript -->
+    <script src="scripts/index.js"></script>
+    <script src="scripts/utilities.js"></script>
 </body>
 </html>
